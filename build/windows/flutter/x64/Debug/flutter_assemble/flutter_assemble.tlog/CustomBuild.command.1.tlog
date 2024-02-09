@@ -1,0 +1,28 @@
+^D:\MOBIE_APP\SJ_VERDEMO\BUILD\WINDOWS\CMAKEFILES\CC71F3911D5EC2AFD3FD4B708D00D167\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=D:\Mobie_app\sj_verdemo FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=D:\Mobie_app\sj_verdemo\windows\flutter\ephemeral PROJECT_DIR=D:\Mobie_app\sj_verdemo FLUTTER_TARGET=D:\Mobie_app\sj_verdemo\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Mobie_app\sj_verdemo\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\MOBIE_APP\SJ_VERDEMO\BUILD\WINDOWS\CMAKEFILES\10D55C7CF68FE719A8D0950D16CB0443\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\MOBIE_APP\SJ_VERDEMO\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Mobie_app/sj_verdemo/windows -BD:/Mobie_app/sj_verdemo/build/windows --check-stamp-file D:/Mobie_app/sj_verdemo/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

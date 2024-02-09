@@ -1,0 +1,10 @@
+^D:\MOBIE_APP\SJ_VERDEMO\BUILD\WINDOWS\CMAKEFILES\EB0324C6D2A5237520D9E2FFF0D80257\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
