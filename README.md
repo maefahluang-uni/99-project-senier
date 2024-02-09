@@ -1,11 +1,9 @@
 # Project -title
-explain your project here
+Reserve a s dormitory.
 ## Members
-list out your member ID and name.
-
+6431503066 SUTEEKARN HARNKERATIKUMJON
+6431503091 THANYALUK TONGKERD
+6431503119 TEERAPON KUMKRONG
 ## Instruction
-You need to create skeleton of your project's development. It does not necessary include the complete source code. Please follow instructions below:
-- Edit readme file that briefly explains your project and details of members.​ 
-- Create folder structure and some source code to prepare for development
-- Decide what features to roll out and who is responsible for it.​ Create branches for each feature. Explain each feature in Readme file in their own branch​ 
-- Create Docker file for your deployment of your application 
+It is a dormitory reservation system.
+There are daily, monthly and fitness room bookings. Customers can press to reserve by choosing the type of accommodation they want. Customers will see images of the room to be reserved and details of each room type along with the price to be paid. Customers can choose to pay immediately after booking or on the day of their stay by paying directly at the dormitory. If it is a monthly room, there will not be an online contract. The customer must enter into the contract in person. You can make an appointment to sign a contract with the dormitory. The main thing is to reserve a room. Specify check in and check out.
